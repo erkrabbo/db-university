@@ -80,7 +80,7 @@ relativo dipartimento, in ordine alfabetico per cognome e nome
     JOIN `departments`
     ON `degrees`.`department_id` = `departments`.`id`
     WHERE `departments`.`name` = 'dipartimento di matematica'
-    GROUP BY `teachers`.`name`, `teachers`.`surname`
+    GROUP BY `teachers`.`id`
 
 
 
